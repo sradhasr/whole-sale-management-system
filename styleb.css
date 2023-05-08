@@ -1,0 +1,62 @@
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://www.liveabout.com/thmb/wl-CrWPVMJji86q-A9zrfJsTcIM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/woman-carrying-shopping-bags-107428671-5a6f70430e23d9003672dc46.jpg");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: white; /* Fallback color */
+  background-color:rgba(0,0,0,0.1); /* Black w/opacity/see-through */
+  color: rgb(247, 243, 243);
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  height:35%;
+  padding: 20px;
+  text-align: center;
+
+}
+
+#block{
+  width:65%;
+ 
+}
+#a{
+  font-size: 18px;
+}
+#b{
+  font-size: 18px;
+}
