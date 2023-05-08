@@ -1,0 +1,16 @@
+body,html{
+    height:100% 
+    }
+
+ div {
+  background-color: rgb(236, 245, 177);
+  width: 500px;
+  height: 600px;
+  padding: 50px;
+  border: solid 40px darkgrey;
+  margin: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
