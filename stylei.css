@@ -1,0 +1,121 @@
+:root {
+    --body-bg: rgb(204, 204, 204);
+    --white: #ffffff;
+    --darkWhite: #ccc;
+    --black: #000000;
+    --dark: #615c60;
+    --themeColor: #fcc26c;
+    --pageShadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+ .page { 
+    background: var(--white);
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: var(--pageShadow);
+ } 
+
+.page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+    overflow: hidden;
+}
+
+.bb {
+    border-bottom: 3px solid var(--darkWhite);
+}
+
+/* Top Section */
+.top-content {
+    padding-bottom: 0px;
+}
+
+.top-left p {
+    margin: 0;
+}
+.top-left .graphic-path p {
+    color: var(--white);
+    height: 50px;
+    left: 0;
+    right: -100px;
+    text-transform: uppercase;
+    background-color: var(--themeColor);
+    font-size:30px;
+    font-weight: bold;
+    font: 400px;
+    z-index: 3;
+    position: absolute;
+    padding-left: 30px;
+}
+
+/* User Store Section */
+.store-user {
+    padding-bottom: 25px;
+}
+
+.store-user p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.store-user .address {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.store-user h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+}
+
+.extra-info p span {
+    font-weight: 400;
+}
+
+/* Product Section */
+thead {
+    color: var(--white);
+    background: var(--themeColor);
+}
+
+.table td,
+.table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+tr th:first-child,
+tr td:first-child {
+    text-align: left;
+}
+
+.media p.item {
+    height: 60px;
+    width: 60px;
+}
+
+.media p {
+    font-weight: 400;
+    margin: 0;
+}
+
+.media p.title {
+    font-weight: 600;
+}
+
+/* Balance Info Section */
+.balance-info .table td,
+.balance-info .table th {
+    padding: 0;
+    border: 100;
+}
+
+.balance-info tr td:first-child {
+    font-weight: 800;
+}
